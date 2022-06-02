@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <title>tech-docs-ainita</title>
+    <title>Ainita Technical Docs</title>
     <link href="https://toni-ainita-net.github.io/tech-docs/feed.xml" rel="self" />
     <link href="https://toni-ainita-net.github.io/tech-docs" />
-    <updated>2022-06-02T15:54:55+01:00</updated>
+    <updated>2022-06-02T17:27:14+01:00</updated>
     <author>
-        <name>toni</name>
+        <name>Toni</name>
     </author>
     <id>https://toni-ainita-net.github.io/tech-docs</id>
 
     <entry>
-        <title>EOTK (the Enterprise Onion Toolkit)</title>
+        <title>EOTK</title>
         <author>
-            <name>toni</name>
+            <name>Toni</name>
         </author>
-        <link href="https://toni-ainita-net.github.io/tech-docs/a-first.html"/>
-        <id>https://toni-ainita-net.github.io/tech-docs/a-first.html</id>
+        <link href="https://toni-ainita-net.github.io/tech-docs/eotk.html"/>
+        <id>https://toni-ainita-net.github.io/tech-docs/eotk.html</id>
 
-        <updated>2022-06-02T15:54:55+01:00</updated>
+        <updated>2022-06-02T17:27:14+01:00</updated>
             <summary>
                 <![CDATA[
-                    EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server. Install trusted TLS certificates from HARICA into EOTK. Generate these vanity onion domain names using a tool called mkp224o (Github&hellip;
+                    EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server.
                 ]]>
             </summary>
         <content type="html">
@@ -33,9 +33,9 @@
 <li><p>Install and configure EOTK on a remote web server.</p>
 </li>
 <li><p>Install trusted TLS certificates from HARICA into EOTK.</p>
-<h2 id="generate-a-vanity-onion-domain-name-using-mkp2240">Generate a “vanity” .onion domain name using mkp2240</h2>
 </li>
 </ol>
+<h2 id="generate-a-vanity-onion-domain-name-using-mkp2240">Generate a “vanity” .onion domain name using mkp2240</h2>
 <h3 id="using-mkp224o-to-generate-vanity-onion-domain-names">Using mkp224o to Generate “Vanity” Onion Domain Names</h3>
 <p>Generate these vanity onion domain names using a tool called <a href="https://github.com/cathugger/mkp224o">mkp224o</a> (Github Link).
 Note that mkp224o program is essentially an “onion miner”.</p>

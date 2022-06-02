@@ -1,0 +1,25 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "tech-docs-ainita",
+    "description": "",
+    "home_page_url": "https://toni-ainita-net.github.io/tech-docs",
+    "feed_url": "https://toni-ainita-net.github.io/tech-docs/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "toni"
+    },
+    "items": [
+        {
+            "id": "https://toni-ainita-net.github.io/tech-docs/a-first.html",
+            "url": "https://toni-ainita-net.github.io/tech-docs/a-first.html",
+            "title": "A first",
+            "author": {
+                "name": "toni"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-02T13:12:07+01:00",
+            "date_modified": "2022-06-02T13:12:07+01:00"
+        }
+    ]
+}

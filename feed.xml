@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>tech-docs-ainita</title>
+    <link href="https://toni-ainita-net.github.io/tech-docs/feed.xml" rel="self" />
+    <link href="https://toni-ainita-net.github.io/tech-docs" />
+    <updated>2022-06-02T13:12:07+01:00</updated>
+    <author>
+        <name>toni</name>
+    </author>
+    <id>https://toni-ainita-net.github.io/tech-docs</id>
+
+    <entry>
+        <title>A first</title>
+        <author>
+            <name>toni</name>
+        </author>
+        <link href="https://toni-ainita-net.github.io/tech-docs/a-first.html"/>
+        <id>https://toni-ainita-net.github.io/tech-docs/a-first.html</id>
+
+        <updated>2022-06-02T13:12:07+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>

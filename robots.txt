@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://toni-ainita-net.github.io/tech-docs/sitemap.xml

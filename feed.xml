@@ -3,7 +3,7 @@
     <title>Ainita Technical Docs</title>
     <link href="https://toni-ainita-net.github.io/tech-docs/feed.xml" rel="self" />
     <link href="https://toni-ainita-net.github.io/tech-docs" />
-    <updated>2022-06-02T17:59:45+01:00</updated>
+    <updated>2022-06-02T18:04:13+01:00</updated>
     <author>
         <name>Toni</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://toni-ainita-net.github.io/tech-docs/eotk.html"/>
         <id>https://toni-ainita-net.github.io/tech-docs/eotk.html</id>
 
-        <updated>2022-06-02T17:59:45+01:00</updated>
+        <updated>2022-06-02T18:04:13+01:00</updated>
             <summary>
                 <![CDATA[
                     EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server.
@@ -95,7 +95,7 @@ Note that mkp224o program is essentially an “onion miner”.</p>
 </code></pre>
 <h2 id="install-and-configure-eotk-on-a-remote-web-server">Install and configure EOTK on a remote web server</h2>
 <h3 id="introduction-to-eotk-the-enterprise-onion-toolkit">Introduction to EOTK: The Enterprise Onion Toolkit</h3>
-<p>EOTK serves as a translator which allows Tor Network users to visit a site as an onion site, and for the site to respond as an onion site.</p>
+<p>EOTK serves as a translator which allows Tor Network users to visit a site as an onion site, and for the site to respond as an onion site!!</p>
 <p><figure class="post__image"><img loading="lazy" src="media/files/1.png" data-is-external-image="true"  alt="" /></figure></p>
 <p>EOTK sits between the application and Nginx, dynamically rewriting requests that cross the Tor Network.
 EOTK is effectively a modified Nginx reverse proxy, which “translates” requests between the Tor Network, and your application’s regular reverse proxy.

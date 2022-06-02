@@ -3,7 +3,7 @@
     <title>Ainita Technical Docs</title>
     <link href="https://toni-ainita-net.github.io/tech-docs/feed.xml" rel="self" />
     <link href="https://toni-ainita-net.github.io/tech-docs" />
-    <updated>2022-06-02T17:27:14+01:00</updated>
+    <updated>2022-06-02T17:59:45+01:00</updated>
     <author>
         <name>Toni</name>
     </author>
@@ -17,7 +17,7 @@
         <link href="https://toni-ainita-net.github.io/tech-docs/eotk.html"/>
         <id>https://toni-ainita-net.github.io/tech-docs/eotk.html</id>
 
-        <updated>2022-06-02T17:27:14+01:00</updated>
+        <updated>2022-06-02T17:59:45+01:00</updated>
             <summary>
                 <![CDATA[
                     EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server.
@@ -96,7 +96,7 @@ Note that mkp224o program is essentially an “onion miner”.</p>
 <h2 id="install-and-configure-eotk-on-a-remote-web-server">Install and configure EOTK on a remote web server</h2>
 <h3 id="introduction-to-eotk-the-enterprise-onion-toolkit">Introduction to EOTK: The Enterprise Onion Toolkit</h3>
 <p>EOTK serves as a translator which allows Tor Network users to visit a site as an onion site, and for the site to respond as an onion site.</p>
-<p><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Documents/GitHub/tech-docs/docs/eotk-installation-images/1.png" data-is-external-image="true"  alt="Screen Shot 2022-05-25 at 09.06.18.png" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="media/files/1.png" data-is-external-image="true"  alt="" /></figure></p>
 <p>EOTK sits between the application and Nginx, dynamically rewriting requests that cross the Tor Network.
 EOTK is effectively a modified Nginx reverse proxy, which “translates” requests between the Tor Network, and your application’s regular reverse proxy.
 The connection between EOTK and your Web Application is not direct, but rather EOTK is a layer “on top of” your regular Nginx reverse proxy.</p>
@@ -289,7 +289,7 @@ systemctl status eotk
 <td>Choose “Server Certificates” in <a href="https://www.harica.gr">https://www.harica.gr</a></td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-21-22-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/2.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
@@ -298,13 +298,13 @@ systemctl status eotk
 <td>Choose a name for the Key, and give the onion address (ending with .onion)(with a subdomain *. for all the possible subdomains)</td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-23-24-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/3.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-23-50-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/4.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
@@ -313,13 +313,13 @@ systemctl status eotk
 <td>30€ per year;     150€ per year with * subdomain</td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-25-19-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/5.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-24-50-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/6.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 </tbody></table>
 <pre><code>&gt; apt install ruby build-essential
@@ -340,13 +340,13 @@ systemctl status eotk
 <td>Copy the onion CSR this and submit it to HARICA. When pasting the onion CSR, make sure that there are no extra newlines at the end.</td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-28-11-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/7.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-28-31-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/8.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 </tbody></table>
 <h4 id="installing-signed-tls-certificates-into-eotk">Installing Signed TLS Certificates into EOTK</h4>
@@ -363,7 +363,7 @@ systemctl status eotk
 <td>Go to the Dashboard</td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-30-51-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/9.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 <tr>
 <td></td>
@@ -372,7 +372,7 @@ systemctl status eotk
 <td>Choose Download</td>
 </tr>
 <tr>
-<td><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-15-31-27-image.png" data-is-external-image="true"  alt="" /></figure></td>
+<td><figure class="post__image"><img loading="lazy" src="media/files/10.png" data-is-external-image="true"  alt="" /></figure></td>
 </tr>
 </tbody></table>
 <pre><code>&gt; rsync -a certificate.pem username@remote:/path/to/destination
@@ -617,7 +617,7 @@ hardmap %NEW_V3_ONION% wiktionary.org m
 # nb: by subdomain we mean FOO in en.FOO.wikipedia.org, etc.
 </code></pre>
 <h1 id="iii">[iii]</h1>
-<p><figure class="post__image"><img loading="lazy" src="/Users/antoniobelo%201/Library/Application%20Support/marktext/images/2022-05-25-10-06-49-image.png" data-is-external-image="true"  alt="" /></figure></p>
+<p><figure class="post__image"><img loading="lazy" src="media/files/11.png" data-is-external-image="true"  alt="" /></figure></p>
 <p>./eotk config domain_name.conf command will generate tor.conf and nginx.conf</p>
 <h1 id="torconf">tor.conf</h1>
 <pre><code>&gt; cat ~/eotk/projects.d/domain.d/tor.conf

@@ -12,14 +12,16 @@
         {
             "id": "https://toni-ainita-net.github.io/tech-docs/a-first.html",
             "url": "https://toni-ainita-net.github.io/tech-docs/a-first.html",
-            "title": "A first",
+            "title": "EOTK (the Enterprise Onion Toolkit)",
+            "summary": "EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server. Install trusted TLS certificates from HARICA into EOTK. Generate these vanity onion domain names using a tool called mkp224o (Github&hellip;",
+            "content_html": "<h1 id=\"eotk-the-enterprise-onion-toolkit\">EOTK (the Enterprise Onion Toolkit)</h1>\n<h2 id=\"installation-macro-steps\">Installation Macro Steps</h2>\n<ol>\n<li><p>Generate a “vanity” .onion domain name using mkp2240.</p>\n</li>\n<li><p>Install and configure EOTK on a remote web server.</p>\n</li>\n<li><p>Install trusted TLS certificates from HARICA into EOTK.</p>\n<h2 id=\"generate-a-vanity-onion-domain-name-using-mkp2240\">Generate a “vanity” .onion domain name using mkp2240</h2>\n</li>\n</ol>\n<h3 id=\"using-mkp224o-to-generate-vanity-onion-domain-names\">Using mkp224o to Generate “Vanity” Onion Domain Names</h3>\n<p>Generate these vanity onion domain names using a tool called <a href=\"https://github.com/cathugger/mkp224o\">mkp224o</a> (Github Link).\nNote that mkp224o program is essentially an “onion miner”.</p>\n<p>Example of Vanity addresses</p>\n<p>BBC NEWS\n<a href=\"https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/\">https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/</a> </p>\n<p>Twitter\n<a href=\"http://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/\">http://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/</a></p>\n<p>NY Times \n<a href=\"http://nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/\">http://nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/</a> </p>\n",
             "author": {
                 "name": "toni"
             },
             "tags": [
             ],
             "date_published": "2022-06-02T13:12:07+01:00",
-            "date_modified": "2022-06-02T13:12:07+01:00"
+            "date_modified": "2022-06-02T15:48:27+01:00"
         }
     ]
 }

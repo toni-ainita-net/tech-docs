@@ -3,22 +3,51 @@
     <title>tech-docs-ainita</title>
     <link href="https://toni-ainita-net.github.io/tech-docs/feed.xml" rel="self" />
     <link href="https://toni-ainita-net.github.io/tech-docs" />
-    <updated>2022-06-02T13:12:07+01:00</updated>
+    <updated>2022-06-02T15:48:27+01:00</updated>
     <author>
         <name>toni</name>
     </author>
     <id>https://toni-ainita-net.github.io/tech-docs</id>
 
     <entry>
-        <title>A first</title>
+        <title>EOTK (the Enterprise Onion Toolkit)</title>
         <author>
             <name>toni</name>
         </author>
         <link href="https://toni-ainita-net.github.io/tech-docs/a-first.html"/>
         <id>https://toni-ainita-net.github.io/tech-docs/a-first.html</id>
 
-        <updated>2022-06-02T13:12:07+01:00</updated>
-            <summary></summary>
-        <content></content>
+        <updated>2022-06-02T15:48:27+01:00</updated>
+            <summary>
+                <![CDATA[
+                    EOTK (the Enterprise Onion Toolkit) Installation Macro Steps Generate a “vanity” .onion domain name using mkp2240. Install and configure EOTK on a remote web server. Install trusted TLS certificates from HARICA into EOTK. Generate these vanity onion domain names using a tool called mkp224o (Github&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1 id="eotk-the-enterprise-onion-toolkit">EOTK (the Enterprise Onion Toolkit)</h1>
+<h2 id="installation-macro-steps">Installation Macro Steps</h2>
+<ol>
+<li><p>Generate a “vanity” .onion domain name using mkp2240.</p>
+</li>
+<li><p>Install and configure EOTK on a remote web server.</p>
+</li>
+<li><p>Install trusted TLS certificates from HARICA into EOTK.</p>
+<h2 id="generate-a-vanity-onion-domain-name-using-mkp2240">Generate a “vanity” .onion domain name using mkp2240</h2>
+</li>
+</ol>
+<h3 id="using-mkp224o-to-generate-vanity-onion-domain-names">Using mkp224o to Generate “Vanity” Onion Domain Names</h3>
+<p>Generate these vanity onion domain names using a tool called <a href="https://github.com/cathugger/mkp224o">mkp224o</a> (Github Link).
+Note that mkp224o program is essentially an “onion miner”.</p>
+<p>Example of Vanity addresses</p>
+<p>BBC NEWS
+<a href="https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/">https://www.bbcnewsd73hkzno2ini43t4gblxvycyac5aw4gnv7t2rccijh7745uqd.onion/</a> </p>
+<p>Twitter
+<a href="http://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/">http://twitter3e4tixl4xyajtrzo62zg5vztmjuricljdp2c5kshju4avyoid.onion/</a></p>
+<p>NY Times 
+<a href="http://nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/">http://nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion/</a> </p>
+
+            ]]>
+        </content>
     </entry>
 </feed>
